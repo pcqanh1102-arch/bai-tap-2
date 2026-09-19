@@ -3,7 +3,7 @@
     border-radius: 10px;
     display: inline-block;
     background-color: #00FFFF;
-    box-shadow: 5px 5px 5px 0 rgb(130, 130, 130);
+    box-shadow: 5px 5px 0 rgb(130, 130, 130);
     width: 285px;
     text-align: center;
     padding: 2px 0;
@@ -23,6 +23,7 @@ h1 {
     padding-left:80px;
     padding-right: 80px;
     margin:auto;
+    
     
 }
 td.col1{
@@ -54,4 +55,12 @@ textarea{
 .comments{
     display:flex;
     align-items:flex-start;
+}
+.radio-col{
+    display:inline-block;
+    width: 170px;
+}
+body{
+    display:flex;
+    justify-content: center;
 }
